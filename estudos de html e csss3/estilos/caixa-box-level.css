@@ -1,0 +1,46 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&family=Rye&display=swap');
+
+/* font-family: "Rye", serif; */
+
+h1 { /* Elemento do tipo box-level*/
+    background-color: lightgray;
+    height: 41px;
+    width: 407px;
+    border-width: 10px;
+    border-style: groove;
+    border-color: darkslategray;
+
+
+    /* padding-top: 10px;   Sempre em sentido horario top = em cima
+    padding-right: 10px;   right = direita 
+    padding-bottom: 10px;   bottom = em baixo
+    padding-left: 10px;     lrft = esquerda*/
+
+    padding: 10x 10px 10px 10px;
+
+   /* margin: auto;  Este comando é para centralizar a caixa lateralmente 
+   margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;  */
+
+    margin: 10px auto 10px auto
+
+    /*outline-width: 5px;
+    outline-style: dashed;
+    outline-color: blueviolet; 
+
+    outline: 5px dashed blueviolet;  */
+}
+
+a { /* Elemento do tipo inline-level*/
+    border-width: 3px;
+    border-style: solid;
+    border-color: blue;
+    
+    padding-top: 10px;   /* Sempre em sentido horario top = em cima*/
+    padding-right: 10px;  /* right = direita */
+    padding-bottom: 10px;  /* bottom = em baixo*/
+    padding-left: 10px;    /* lrft = esquerda*/
+}

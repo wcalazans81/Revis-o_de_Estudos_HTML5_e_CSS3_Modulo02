@@ -1,0 +1,35 @@
+@charset "UTF-8";
+body {
+      background-image: linear-gradient(to top, white, #3B3C40)
+    
+}
+
+h1 {
+    font-family: ;
+    background-color: #049DD9;
+    color: white;
+}
+
+main {
+    background-color: white;
+    color: black;
+}
+
+h2 {
+    background-color: #049DD9;
+    color: white;
+}
+
+
+h3 {background-color: #049DD9;
+    color: #ffffff;
+    
+}
+h4 {
+    background-color:#049DD9;
+    color: rgb(255, 255, 255);
+}
+h5 {
+    background-color: #049DD9;
+    color: hsl(0, 0%, 100%);
+}

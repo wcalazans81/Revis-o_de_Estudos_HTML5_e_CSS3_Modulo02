@@ -1,0 +1,13 @@
+@charset "UTF-8";
+*{   /*Configurações gobais do css */
+    height: 100%;
+    }
+    
+    body {
+        background-image: linear-gradient(to right, #3B3C40, #6bdb87, #736665);
+        background-attachment: fixed;
+    }
+    
+    h1 {
+        color: white;
+    }

@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    /* 
+    Medidas Absolutas
+    cm, mm, in, px, pt, pc
+    
+    Medidas Relativas
+    em, ex, rem, vw, vh, %
+    16px geralmente = 1em
+    */
+    font-size: 1em;
+    /*
+    font-weight: bold;
+    Este comando css coloca todo o texto em negrito
+    
+    */
+     font-style: italic;
+    /*
+    Podemos juntar comandos de fontes numa só linha desde que esteja nesta ordem
+    font-style -> font-weight -> font-size -> font-family
+    EX: font: italic bolder 3em Arial, Helvetica, sans-serif;
+    
+    
+    */
+}
+
+body {
+    background-image: linear-gradient(to right, #3B3C40, #6bdb87, #736665);
+        background-attachment: fixed;
+}
+
+main {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #736665;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.8em;
+   text-decoration: underline ;
+    color:  #1e45e2;
+    text-align: center;
+    text-shadow: 1px 1px 2px #302a2a;
+}
+
+article {
+    background-color: aquamarine;
+    color: blue;
+    text-decoration: underline;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #a52016;
+}
+
+p {
+    text-align: justify;
+}

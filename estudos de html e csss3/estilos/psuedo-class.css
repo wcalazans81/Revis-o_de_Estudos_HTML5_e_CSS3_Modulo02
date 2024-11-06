@@ -1,0 +1,42 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&family=Rye&display=swap');
+
+div {
+    display: inline-block;   
+    background-color: rgb(193, 211, 163); 
+    border: 1px solid black;
+    text-align: center;
+    height: 200px;  /* Altura*/
+    width: 200px; /* Largura*/
+
+}
+
+div:hover {
+    background-color: rgb(61, 116, 7);
+    text-align: center;
+    font-family: "Rye", serif;
+    font-size: 3em;
+    font-weight: 400;
+    font-style: normal
+}
+
+
+#f1 > p {
+    display: none;
+}
+
+#f1:hover > p {
+    display: block;
+}
+
+#f1:hover {
+    background-color: rgb(116, 24, 202);
+    color: white;
+    font-family: "Rye", serif;
+    font-size: 1.5em;
+    text-align: center;
+    height: 200px;  /* Altura*/
+    width: 600px; /* Largura*/
+
+
+}
